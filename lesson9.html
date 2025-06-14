@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 align="center">working with form</h1>
+        <hr>
+        <br>
+
+        <!-- input tag types -> input - select - textarea -->
+
+        <form action="./success.html">
+            <table border="1" cellpadding="10" align="center" width="30%">
+
+                <tr bgcolor="lightgreen">
+                    <td colspan="2" align="center"><font size="5"><b>login</b></font></td>
+                </tr>
+                <tr>
+                    <td align="center">Username</td>
+                    <td>
+                        <input type="text" size="34px"
+                            placeholder="enter your username here" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Email</td>
+                    <td>
+                        <input type="email" size="34px"
+                            placeholder="abc@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td align="center">Password</td>
+                    <td>
+                        <input type="password" size="34px"
+                            placeholder="ex.123456" required>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td align="center">color</td>
+                    <td>
+                        <input type="color" 
+                             required>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td align="center">date</td>
+                    <td>
+                        <input type="date"  
+                             required>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td align="center">time</td>
+                    <td>
+                        <input type="time" 
+                             required>
+                    </td>
+                </tr>
+
+                  <tr>
+
+                    <td align="center">photo</td>
+                    <td>
+                        <input type="file" 
+                             required accept="image/*">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>select city</td>
+                    <td>
+                        <select>
+                            <option value="0">select city</option>
+                            <option value="1">bhavnager</option>
+                            <option value="2">surat</option>
+                            <option value="3">amreli</option>
+                            <option value="4">mahua</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="address" id="address" rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="button">button</button>
+                        <button type="reset">reset</button>
+                        <button type="submit">submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
