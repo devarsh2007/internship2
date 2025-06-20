@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.p1{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#products
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+button{
+    background-color:rgb(9, 9, 203);
+    color: white;
+    width: 100%;
+    border: 0px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:hover{
+    color: aqua;
+    border: 2px solid black;
+}
+
+.p1:hover{
+    background-color: rgb(237, 237, 11);
+    color: black;
+    border: 2px solid black;
+}
