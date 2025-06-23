@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        p{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            width: 20%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition: all ease-in-out 0.7s;
+        }
+
+        .p1:hover{
+            transform: scale(1.2);
+        }
+
+        .p2:hover{
+            transform: rotateY(-360deg);
+        }
+        .p3:hover{
+            transform: scale(1.2);
+            background-color: blue;
+            border-radius: 0px;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .p4:hover{
+            transform: translateX(-100px);
+            
+        }
+        
+
+        button
+        {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 10px;
+            border: 0px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        button:hover + .p5{
+            transform: translateX(500px) rotate(360deg) ;
+            
+        }
+
+        img:hover{
+            border-radius: 300px;
+            border: 2px solid black;
+        }
+        img{
+            transition: all ease-in-out 1s;
+        }
+    </style>
+    </head>
+    <body>
+
+        <h1>
+            working with transition & transform
+        </h1><hr>
+
+        <div>
+            <p class="p1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                rerum, doloribus repudiandae a officia suscipit veritatis
+                excepturi nostrum, ea illum voluptas maxime amet aspernatur iure
+                optio iste. Atque, voluptate dolore!
+            </p>
+
+            <p class="p2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Incidunt, dolor velit inventore officia omnis id magni
+                accusantium possimus rerum corrupti.
+
+            </p>
+
+            <p class="p3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                debitis, ratione nam ex ipsum explicabo nihil est numquam nulla
+                repellat! Inventore illum aut, enim dolorum sit ipsum voluptatem
+                officia mollitia!
+            </p>
+        </div>
+
+        <div>
+            <p class="p4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+                aspernatur. Debitis nihil quidem voluptates repudiandae labore
+                facere perferendis, rerum tenetur quos facilis enim neque error
+                molestiae voluptatem minima corrupti. Repudiandae.
+            </p>
+
+        </div>
+        <br>
+        <button>translate</button>
+        <p class="p5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+            aspernatur. Debitis nihil quidem voluptates repudiandae labore
+            facere perferendis, rerum tenetur quos facilis enim neque error
+            molestiae voluptatem minima corrupti. Repudiandae.
+        </p>
+
+        <img src="https://picsum.photos/300" alt="">
+        
+    </body>
+</html>
