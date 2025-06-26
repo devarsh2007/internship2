@@ -96,7 +96,7 @@ nav div a:hover{
 .best_sellers button:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-h2{
+.topic{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
@@ -113,4 +113,142 @@ h2{
 
 .best_sellers div:hover{
     transform: scale(1.1);
+}
+
+
+
+.categories .card{
+    display: flex;
+    width: 45%;
+    margin-top: 20px;
+    background-color:rgb(46, 46, 46) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.categories .card div{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.categories .card img{
+    border-radius: 200px;
+    border: 2px solid white;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories .card:hover{
+    background-color:black;
+}
+
+
+.trust{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trust div img{
+    width: 30px;    
+    background-color: blue;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.trust div{
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    width: 20%;
+    text-align: center;
+    transition: all ease-in-out 1s;
+    
+}
+
+.trust div:hover{
+    border: 2px solid blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    transform: translateY(-50px);
+}
+
+#blue{
+    background-color:rgb(210, 210, 248);
+}
+
+#green{
+    background-color:rgb(194, 243, 205);
+}
+
+#red{
+    background-color:rgb(248, 210, 210);
+}
+#yellow{
+    background-color:rgb(248, 247, 210);
+}
+
+#green img{
+    background-color: green;
+}
+#red img{
+    background-color: red;
+}
+#yellow img{
+    background-color: yellow;
+}
+
+#green:hover{
+    border: 2px solid green;
+}
+#red:hover{
+    border: 2px solid red;
+}
+#yellow:hover{
+    border: 2px solid yellow;
+}
+
+
+.rating{
+    margin-top: 30px;
+
+}
+
+.rating .number_rating{
+    background-color: rgb(252, 252, 205);
+    color: rgb(82, 63, 2);
+    width: 15%;
+
+}
+
+.rating .number_rating img{
+    width: 50px;
+}
+
+.rating .number_rating{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.rating .number_rating p{
+    margin-top: -20px;
+}
+
+.rating .number_rating p img{
+    width: 15px;
+}
+
+.stars div img{
+    width: 20px;
+    margin-top: 20px;
+}
+
+.stars .stars2{
+    display: flex;
 }
