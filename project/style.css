@@ -215,6 +215,10 @@ nav div a:hover{
 
 .rating{
     margin-top: 30px;
+    display: flex;
+
+    gap:20px;
+    justify-content: center;
 
 }
 
@@ -251,4 +255,78 @@ nav div a:hover{
 
 .stars .stars2{
     display: flex;
+}
+
+.stars .stars2 p {
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.topic{
+    font-family: "Oswald", sans-serif;
+}
+
+.topic:hover{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+
+
+.rating_cards>div{
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.rating_cards>div:hover{
+    background-color: rgb(253, 253, 202);
+}
+
+.rating_cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+input{
+    width: 20%;
+    height: 30px;
+    padding: 0px 10px;
+    border: 0px ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+button{
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif; 
 }
